@@ -7,3 +7,7 @@ edition = "2021"
 
 [dependencies]
 yew = "0.19"
+web-sys = { version = "0.3.55", features = ["FormData", "HtmlFormElement"] }
+yew-router = "0.16"
+log = "0.4.14"
+wasm-logger = "0.2.0"
